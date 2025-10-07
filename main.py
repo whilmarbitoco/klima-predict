@@ -27,6 +27,12 @@ def mapToJson(data: np.ndarray) -> list:
         })
     return forecast
 
+
+@app.get("/")
+async def index():
+    return "KLIMA Predict by Whilmar Bitoco"
+
+
 @app.post("/predict")
 async def predict(input_data: WeatherInput) -> list:
     x = np.array(input_data.data, dtype=np.float32)
