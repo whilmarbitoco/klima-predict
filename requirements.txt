@@ -1,4 +1,5 @@
 fastapi
 uvicorn
-tensorflow
+tensorflow==2.19.0
 numpy
+joblib
