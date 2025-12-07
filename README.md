@@ -89,3 +89,8 @@ Returns a list of forecasted weather for each day:
 ...
 ]
 ```
+
+## 📄 License
+
+This project is licensed under **All Rights Reserved**.
+See the [LICENSE](LICENSE) file for details.
